@@ -689,6 +689,12 @@ ul {
     .nav-links .btn-primary {
         background-color: var(--hero-bg);
         color: white;
+        border: 2px solid var(--hero-bg);
+    }
+
+    .nav-links .btn-primary:hover {
+        background-color: transparent;
+        color: var(--hero-bg);
     }
 
     .nav-links.active {
