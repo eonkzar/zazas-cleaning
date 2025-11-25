@@ -699,7 +699,7 @@ ul {
         background-color: var(--text-light);
     }
 
-    .nav-links.active~.mobile-menu-btn .bar {
+    .mobile-menu-btn.active .bar {
         background-color: var(--hero-bg);
     }
 
