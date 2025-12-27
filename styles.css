@@ -2,7 +2,7 @@
     /* Color Palette */
     --primary-color: #000000;
     /* SlateBlue/Violet */
-    --primary-dark: #483D8B;
+    --primary-dark: #000000;
     /* DarkSlateBlue */
     --secondary-color: #FFFFFF;
     /* White */
@@ -12,7 +12,7 @@
     --text-light: #FFFFFF;
     --grey-light: #F5F5F7;
     --hero-bg: #000000;
-    /* Main violet background */
+    /* Main black background */
 
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
@@ -151,7 +151,7 @@ ul {
 }
 
 .navbar.scrolled {
-    background-color: rgba(91, 75, 196, 0.95);
+    background-color: rgba(0, 0, 0, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
