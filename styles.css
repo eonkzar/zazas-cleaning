@@ -220,7 +220,8 @@ ul {
 .hero {
     min-height: 100vh;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url('hero-bg.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), url('hero-bg.png') no-repeat center center/cover;
+    background-attachment: fixed;
     position: relative;
     display: flex;
     align-items: center;
