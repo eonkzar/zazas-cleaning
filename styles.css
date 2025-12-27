@@ -1,6 +1,6 @@
 :root {
     /* Color Palette */
-    --primary-color: #6A5ACD;
+    --primary-color: #000000;
     /* SlateBlue/Violet */
     --primary-dark: #483D8B;
     /* DarkSlateBlue */
@@ -11,7 +11,7 @@
     --text-dark: #1A1A1A;
     --text-light: #FFFFFF;
     --grey-light: #F5F5F7;
-    --hero-bg: #5B4BC4;
+    --hero-bg: #000000;
     /* Main violet background */
 
     /* Typography */
