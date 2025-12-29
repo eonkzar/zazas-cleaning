@@ -327,6 +327,12 @@ ul {
     overflow: hidden;
 }
 
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Services Section */
 .services-section {
     background-color: var(--grey-light);
@@ -731,9 +737,26 @@ ul {
 
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 3fr;
     gap: 4rem;
+    align-items: start;
     margin-top: 3rem;
+}
+
+
+
+.contact-intro {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.contact-cal-column {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
 }
 
 .contact-info {
@@ -766,7 +789,7 @@ ul {
     color: var(--text-dark);
 }
 
-.contact-item i {
+.icon-circle {
     width: 40px;
     height: 40px;
     background-color: var(--grey-light);
@@ -775,14 +798,16 @@ ul {
     align-items: center;
     justify-content: center;
     color: var(--hero-bg);
-    font-size: 1.2rem;
     transition: var(--transition);
 }
 
-.contact-item:hover i {
+.contact-item:hover .icon-circle {
     background-color: var(--hero-bg);
     color: white;
 }
+
+
+
 
 .contact-form-container {
     background-color: white;
@@ -842,6 +867,12 @@ ul {
     .contact-wrapper {
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+
+    .contact-cal-column {
+        width: 100%;
+        height: 600px;
+        /* Ensure height remains consistent */
     }
 
     .contact-info {
