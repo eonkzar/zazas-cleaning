@@ -322,15 +322,18 @@ ul {
 }
 
 .about-image {
-    height: 500px;
+    /* Height matches content to allow border-radius to clip image closely */
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds pop shared by other cards */
 }
 
 .about-image img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: auto;
+    display: block;
+    /* Removes bottom spacing */
 }
 
 /* Services Section */
