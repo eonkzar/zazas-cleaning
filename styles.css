@@ -330,7 +330,7 @@ ul {
 .about-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Services Section */
@@ -863,7 +863,7 @@ ul {
     resize: vertical;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
     .contact-wrapper {
         grid-template-columns: 1fr;
         gap: 3rem;
